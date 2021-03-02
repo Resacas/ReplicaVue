@@ -1,47 +1,47 @@
 <template>
     <div id="nav">
-      <ul>
-        <li>
-          Products
+      <ul class="nav__list">
+        <li class="nav__element nav__dropdown">
+          PRODUCTS
           <svg id="arrow" viewBox="0 0 12 12">
             <path d="M6 11.4L.3 5.7l1.4-1.4L5 7.6V0h2v7.6l3.3-3.3 1.4 1.4z"></path>
           </svg>
-          <ul>
+          <ul class="nav__dropdownElement">
             <li>
-              <router-link to="/#">Tonic Water</router-link>
+              <router-link to="/#">TONiC WATER</router-link>
             </li>
             <li>
-              <router-link to="/#">Ginger Ale</router-link>
+              <router-link to="/#">GiNGER ALE</router-link>
             </li>
             <li>
-              <router-link to="/#">Club Soda</router-link>
+              <router-link to="/#">CLUB SODA</router-link>
             </li>
             <li>
-              Zero sugar soft drinks
+              ZERO SUGAR SOFT DRiNKS
             </li>
             <li>
-              <router-link to="/#">Zero sugar Ginger Ale</router-link>
+              <router-link to="/#">ZERO SUGAR GiNGER ALE</router-link>
             </li>
             <li>
-              <router-link to="/#">Zero sugar Blood Orange Sparkling Soda</router-link>
+              <router-link to="/#">ZERO SUGAR BLOOD ORANGE SPARKLiNG SODA</router-link>
             </li>
             <li>
-              <router-link to="/#">Zero sugar Grapefruit Sparkling Soda</router-link>
+              <router-link to="/#">ZERO SUGAR GRAPEFRUiT SPARKLiNG SODA</router-link>
             </li>
           </ul>
         </li>
-        <li>
-          Moods
+        <li class="nav__element nav__dropdown">
+          MOODS
         <svg id="arrow" viewBox="0 0 12 12">
           <path d="M6 11.4L.3 5.7l1.4-1.4L5 7.6V0h2v7.6l3.3-3.3 1.4 1.4z"></path>
         </svg>
-          <ul>
+          <ul  class="nav__dropdownElement">
             <li>
-              Featured
+              FEATURED
             </li>
             <li>
               <router-link to="/#">
-                Festive Frenzy
+                FESTiVE FRENZY
                 <span>
                   + Bubble Punch
                 </span>
@@ -49,15 +49,15 @@
             </li>
             <li>
               <router-link to="/#">
-                Better Together
+                BETTER TOGETHER
                 <span>
-                  + Gin & Coffe
+                  + Gin and Coffe
                 </span>
               </router-link>
             </li>
             <li>
               <router-link to="/#">
-                Simplicity
+                SiMPLiCiTY
                 <span>
                   + Unique Vanilla
                 </span>
@@ -65,7 +65,7 @@
             </li>
             <li>
               <router-link to="/#">
-                Effervescent Nostalgia
+                EFFERVESCENT NOSTALGiA
                 <span>
                   + Jam Club
                 </span>
@@ -73,7 +73,7 @@
             </li>
             <li>
               <router-link to="/#">
-                Passion Destination
+                PASSiON DESTiNATiON
                 <span>
                   + Exotic Delight
                 </span>
@@ -81,7 +81,7 @@
             </li>
             <li>
               <router-link to="/#">
-                Thirst for Elegance
+                THiRST FOR ELEGANCE
                 <span>
                   + Rosemary Red
                 </span>
@@ -90,7 +90,7 @@
           </ul>
         </li>
       </ul>
-      <router-link to="/">
+      <router-link to="/" class="home__link">
         <svg fill="none" id="logo" viewBox="0 0 120 87">
           <path d="M73.127 16.216v-.85C73.205 5.87 68.108 0 60 0S46.873 5.869 46.873 15.367c0 3.552.695 6.563 2.007 8.957l-29.343 9.73C13.668 35.984 0 40.54 0 57.374v29.267l100.541-33.436C106.409 51.275 120 46.718 120 29.96V.695L73.127 16.216zm-24.015-.85c0-8.262 4.093-13.204 10.965-13.204 6.873 0 10.966 4.942 10.966 13.205 0 8.262-4.093 13.204-10.966 13.204-6.872 0-10.965-4.942-10.965-13.204zm68.726 14.595c0 13.437-9.112 18.224-17.992 21.159L2.162 83.552V57.374c0-13.436 9.112-18.223 17.992-21.158l29.962-9.961c2.316 2.934 5.637 4.556 9.884 4.556 7.104 0 11.892-4.556 12.896-12.124L117.76 3.784l.077 26.177z" fill="#000"></path>
           <path d="M60 30.734c-4.247 0-7.645-1.622-9.884-4.556l-29.962 9.961c-8.88 3.012-17.915 7.8-17.915 21.236v26.177L99.923 51.12c8.88-2.934 17.992-7.8 17.992-21.158V3.784L72.973 18.61C71.892 26.178 67.18 30.734 60 30.734z" fill="#FFE500"></path>
@@ -106,17 +106,17 @@
           <path d="M115.367 20.232c0-.386-.232-.618-.695-.618h-.773v2.008h.464v-.773h.231l.386.773h.464l-.386-.773c.231-.154.309-.308.309-.617zm-1.004-.155h.386c.231 0 .309.078.309.232 0 .154-.078.232-.309.232h-.386v-.464z" fill="#000"></path>
         </svg>
       </router-link>
-      <a href="">
+      <a href="" class="nav__link">
         <svg id="instagram" viewBox="0 0 16 16">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M8 2.262c1.869 0 2.09.007 2.83.04 1.896.087 2.782.987 2.869 2.87.033.738.04.96.04 2.829 0 1.87-.007 2.09-.04 2.828-.087 1.881-.971 2.783-2.87 2.87-.738.033-.959.04-2.829.04-1.869 0-2.09-.007-2.829-.04-1.901-.087-2.783-.992-2.869-2.87-.034-.738-.04-.96-.04-2.829 0-1.869.007-2.09.04-2.829.087-1.882.97-2.783 2.87-2.869.738-.033.959-.04 2.828-.04zM8 1c-1.901 0-2.14.008-2.886.042-2.542.117-3.955 1.527-4.071 4.072C1.008 5.86 1 6.099 1 8c0 1.901.008 2.14.042 2.886.117 2.543 1.527 3.955 4.072 4.072.747.034.985.042 2.886.042 1.901 0 2.14-.008 2.886-.042 2.54-.117 3.957-1.527 4.071-4.072C14.992 10.14 15 9.901 15 8c0-1.901-.008-2.14-.042-2.886-.114-2.54-1.527-3.955-4.071-4.071C10.14 1.008 9.9 1 8 1zm0 3.405a3.595 3.595 0 100 7.19 3.595 3.595 0 000-7.19zm0 5.928a2.333 2.333 0 110-4.666 2.333 2.333 0 010 4.666zm3.737-6.91a.84.84 0 100 1.681.84.84 0 000-1.68z"></path>
         </svg>
       </a>
-      <a href="">
+      <a href="" class="nav__link">
         <svg id="facebook" viewBox="0 0 16 16">
           <path d="M8 0a8.001 8.001 0 00-1.25 15.903v-5.59H4.719V8H6.75V6.237c0-2.004 1.194-3.112 3.022-3.112.875 0 1.79.156 1.79.156V5.25h-1.009c-.994 0-1.303.617-1.303 1.25V8h2.219l-.355 2.313H9.25v5.59A8.001 8.001 0 008 0z"></path>
         </svg>
       </a>
-      <a href="">
+      <a href="" class="nav__link">
         <p>FR</p>
       </a>
     </div>
@@ -124,9 +124,99 @@
 
 <script>
 export default {
-  name: 'NavBar',
-  components:{
-   NavBar
-  }
+  name: 'NavBar'
 }
 </script>
+
+<style scoped>
+  #nav {
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 2px solid black;
+    margin:0 2vw;
+    padding:0.75vw 0;
+  }
+
+  .nav__list{
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    justify-self: flex-end;
+  }
+
+  .nav__element{
+    display:flex;
+    font-size:0.85vw;
+    border:2px solid black;
+    background-color:#ffe500;
+    border-radius: 40px;
+    padding:0.5vw 1vw 0.3vw;
+    margin: 0 0.3vw 0 0.2vw;
+  }
+  .nav__element svg{
+    width:0.5vw;
+    margin-left: 0.5vw;
+    align-self:center;
+  }
+
+  .nav__dropdown{
+    
+    overflow:hidden;
+  }
+
+  .nav__dropdownElement{
+    display:none;
+    list-style-type: none;
+  }
+
+  .nav__element:hover .nav__dropdownElement{
+    display:block;
+    position: absolute;
+    top: 5vw;
+  }
+
+  .home__link{
+    width: 6vw;
+  }
+
+  .nav__link{
+    border:2px solid black;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: end;
+    width:2vw;
+    height: 2vw;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    
+  }
+  .nav__link svg{
+    width:1vw;
+    height: 1vw;
+  }
+
+
+
+
+
+  .nav__element::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -10%;
+    width: 120%;
+    padding-bottom: 100%;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translateZ(0);
+    transition: transform .3s cubic-bezier(.215,.61,.355,1);
+  }
+  .nav__element:hover{
+    color: #ffe500;
+    background-color: #000;
+    transition: color .3s cubic-bezier(.445,.05,.55,.95),background-color .1s linear .2s;
+  }
+
+</style>
