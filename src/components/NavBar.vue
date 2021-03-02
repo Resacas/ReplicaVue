@@ -1,6 +1,4 @@
 <template>
-  <div id="app">
-
     <div id="nav">
       <ul>
         <li>
@@ -122,68 +120,13 @@
         <p>FR</p>
       </a>
     </div>
-
-    <router-view/>
-  </div>
 </template>
 
-
-<style>
-@font-face{
-  font-family:  'Euclid-Bold';
-  src: url(assets/fonts/euclid/EuclidCircularA-Bold-WebTrial.woff),
+<script>
+export default {
+  name: 'NavBar',
+  components:{
+   NavBar
+  }
 }
-@font-face{
-  font-family:  'Euclid-Semibold';
-  src: url(assets/fonts/euclid/EuclidCircularA-Semibold-WebTrial.woff),
-}
-@font-face{
-  font-family:  'Euclid-Medium';
-  src: url(assets/fonts/euclid/EuclidCircularA-Medium-WebTrial.woff),
-}
-@font-face{
-  font-family:  'Euclid-Regular';
-  src: url(assets/fonts/euclid/EuclidCircularA-Regular-WebTrial.woff),
-}
-@font-face{
-  font-family:  'Euclid-Light';
-  src: url(assets/fonts/euclid/EuclidCircularA-Light-WebTrial.woff),
-}
-@font-face{
-  font-family:  'SangBleu-Bold';
-  src: url(assets/fonts/sangBleu/SangBleuRepublic-Bold-WebTrial.woff2),
-}
-@font-face{
-  font-family:  'SangBleu-Medium';
-  src: url(assets/fonts/sangBleu/SangBleuRepublic-Medium-WebTrial.woff2),
-}
-@font-face{
-  font-family:  'SangBleu-Book';
-  src: url(assets/fonts/sangBleu/SangBleuRepublic-Book-WebTrial.woff2),
-}
-@font-face{
-  font-family:  'SangBleu-Regular';
-  src: url(assets/fonts/sangBleu/SangBleuRepublic-Regular-WebTrial.woff2),
-}
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>
