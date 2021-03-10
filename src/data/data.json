@@ -1,0 +1,36 @@
+{
+    "buttons":[
+    {
+        "text":"PRODUCTS",
+        "icon":"M6 11.4L.3 5.7l1.4-1.4L5 7.6V0h2v7.6l3.3-3.3 1.4 1.4z",
+        "dropdown":[
+            {"element":"TONiC WATER"},
+            {"element":"GiNGER ALE"},
+            {"element":"CLUB SODA"},
+            {"element":"ZERO SUGAR SOFT DRiNKS"},
+            {"element":"ZERO SUGAR GiNGER ALE"},
+            {"element":"ZERO SUGAR BLOOD ORANGE SPARKLiNG SODA"},
+            {"element":"ZERO SUGAR GRAPEFRUiT SPARKLiNG SODA"}
+        ]
+    },
+    {
+        "text":"MOODS",
+        "icon":"M6 11.4L.3 5.7l1.4-1.4L5 7.6V0h2v7.6l3.3-3.3 1.4 1.4z",
+        "dropdown":[
+            {"element":"FEATURED"},
+            {"element":"FESTiVE FRENZY"},
+            {"element":"+ Bubble Punch"},
+            {"element":"BETTER TOGETHER"},
+            {"element":"+ Gin and Coffe"},
+            {"element":"SiMPLiCiTY"},
+            {"element":"+ Unique Vanilla"},
+            {"element":"EFFERVESCENT NOSTALGiA"},
+            {"element":"+ Jam Club"},
+            {"element":"PASSiON DESTiNATiON"},
+            {"element":"+ Exotic Delight"},
+            {"element":"THiRST FOR ELEGANCE"},
+            {"element":"+ Rosemary Red"}
+        ]
+    }
+    ]
+}
